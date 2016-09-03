@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.3)
 project(rastertokpsl-re)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c11")
 
 set (SRC_DIR ${PROJECT_SOURCE_DIR}/src)
 set (CUPS_SRC_DIR ${SRC_DIR}/cups-2.1.1)

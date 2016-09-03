@@ -2,6 +2,8 @@
  * Include necessary headers...
  */
 
+#define _XOPEN_SOURCE 500
+
 #include <cups/cups.h>
 #include <cups/raster.h>
 //#include <cups/language-private.h>

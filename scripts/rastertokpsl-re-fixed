@@ -1,4 +1,4 @@
 #!/bin/bash
 jobname=$(echo $3 | egrep -o '[[:alnum:]]' | tr -d '\n' | tail -c 20)
 path=/usr/libexec/cups/filter
-$path/rastertokpsl "$1" "$2" "$jobname" "$4" "$5"
+$path/rastertokpsl-re "$1" "$2" "$jobname" "$4" "$5"
